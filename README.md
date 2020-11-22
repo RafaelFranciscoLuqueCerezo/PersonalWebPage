@@ -1,2 +1,0 @@
-# PersonalWebPage
-Pagina web personal
