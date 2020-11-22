@@ -1,0 +1,74 @@
+body{
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  overflow-y: auto;
+}
+#LocationSaferContenido{
+  width: 100%;
+  background: white;
+  text-align: center
+}
+#LocationSaferContenido h1{
+  display: inline-block;
+  font-family: Impact;
+  font-size: 30px;
+  margin-top: 30px;
+}
+#image{
+    background-size: 231px 230px;
+    width: 231px;
+    height: 230px;
+}
+#LSfD1,#LSfD2{
+  font-family: Verdana;
+  margin:auto;
+  margin-top: 10px;
+  width: 80%;
+  word-break: normal;
+}
+.separacion{
+  width: 99%;
+  border-bottom:1px solid #E0E0E0;
+  margin-left: .5%;
+  margin-right: .5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+table td img{
+    display: inline-block;
+    margin-top: 10px;
+    background-size: 270px 480px;
+    width: 270px;
+    height: 480px;
+}
+table{
+  table-layout: fixed;
+  width: auto;
+  border-collapse: separate;
+  border-spacing: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.Tmovil{
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+#LSfD1 span a{
+  word-break: break-all;
+}
+.Tweb{
+    display: none;
+  }
+.Tmovil{
+  display: inline-block;
+  }
+.Tmovil img{
+    display: inline-block;
+    margin-top: 10px;
+    background-size: 162px 288px;
+    width: 162px;
+    height: 288px;
+}  
+}

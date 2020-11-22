@@ -1,0 +1,210 @@
+@media only screen and (max-width: 600px) {
+body,#Cabecera2{
+	min-width: 0px;
+}
+#Cita,.Tweb,.tdflickbox{
+	display: none;
+}
+
+
+/*----------------------------------------------------*/
+#CartaPresentacion{
+	float: none ;
+	margin-left: 0%;
+	margin-top: .5%;
+	background: #FFFFFF;
+	width: 100%;
+	min-width: 0px;
+	box-shadow: none;
+}
+.ContactosContenedor img{
+	background-size: 18px 18px;
+    width: 18px;
+    height: 18px;
+}
+.ContactosContenedor label{
+	font-size: 8px;
+}
+/*-------------------------------------------------*/
+#Menu{
+	display: block;
+	text-align: center;
+	background: #1D3B46;
+	float: none;
+	margin-right: 0%;
+	margin-top: -5px;
+	width: 100%;
+	min-width: 0px;
+	height: auto;
+	box-shadow: none;
+}
+.imgMenu{
+    background-size: 32px 32px;
+    width: 32px;
+    height: 32px;
+    margin-top: 10px;
+
+}
+#Menu ul li{
+	display: inline-block;
+}
+
+.btMenu{
+	text-align: center;
+	border: 1px solid rgba(0,0,0,0.16);
+	border-radius: 0px;
+	background-color: #1D3B46;
+	padding: 10px;
+	text-decoration: none;
+	font-family: Verdana;
+	font-size: 10px;
+	color: white;
+}
+.btMenu:hover{
+	transition: none;
+	background-color: #1D3B46;
+	transform:scale(1);
+}
+#Menu ul li button div{
+	width: 100%;
+	height: 2px;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+
+/*------------------------------------------------*/
+#Contenido{
+	width: 100%;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+#ContenidoCompetencias{
+	width: 100%;
+	min-width: 0px;
+	margin-top: 0px;
+	box-shadow: none;
+}
+
+#ContenidoLenguajes{
+	width: 100%;
+	min-width: 0px;
+	margin-top: -8px;
+}
+#ContenidoCompetencias h2,#ContenidoLenguajes h2,#ContenidoCompetencias p{
+	padding-left: 2%;
+}
+#ContenidoCompetencias h2,#ContenidoLenguajes h2{
+	font-size: 14px;
+	padding-bottom: 15px;
+}
+#ContenidoCompetencias p{
+	font-size: 10px;
+	margin-top: 5px;
+	word-break: normal;
+}
+.Tmovil{
+	display: flex;
+	justify-content: center;
+	table-layout: fixed;
+	border-collapse: separate;
+	border-spacing: 5px;
+	text-align: center;
+	margin-bottom: 1px;
+}
+.Tmovil td{
+	width: 100px;
+}
+.Tmovil span{
+	display: inline-block;
+	font-family: Verdana;
+	font-size: 11px;
+	color: black;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	word-break: break-all;
+}
+/*efecto flick box*/
+.tdflickboxM{
+	width: auto;
+	height: auto;
+	text-align: center;
+	perspective: 1000px;
+	background: transparent;
+}
+.tdflickboxM img{
+	padding-top: 10px;
+}
+.tdcontent.flipped {
+	-webkit-transform: rotateY( 180deg );
+	-moz-transform: rotateY( 180deg );
+	-o-transform: rotateY( 180deg );
+	transform: rotateY( 180deg );
+}
+
+
+.tdcontent{
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.tdfront, .tdback {
+	border:1px solid #E0E0E0;
+	border-radius: 10px;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.tdback {
+  background: #D1D1D1;
+  position: absolute;
+  top: 0;
+  transform: rotateY(180deg);
+}
+
+.estrellas{
+	margin-top: 10px;
+}
+/*ESTRELLAS*/
+.estrellaOn
+{
+	font-size: 15px;
+	font-weight: bold;
+	color: #D7C711;
+}
+.estrellaOff
+{
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+}
+
+
+/*......................................................*/
+#ContenidoExperienciaLaboral{
+	display: none;
+	width: 100%;
+	height: 600px;
+	background: #FFFFFF;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+}
+#ExperienciaEprinsa{
+	font-size: 10px;
+}
+#ContenidoExperienciaLaboral ul li{
+	margin-left: 20px;
+}
+#ContenidoExperienciaLaboral ul  ul li{
+	margin-left: 50px;
+}
+.icono{
+  background-size: 18px 18px;
+  width: 18px;
+  height: 18px;
+}
+
+
+}
